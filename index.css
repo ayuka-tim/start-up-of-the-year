@@ -1,0 +1,39 @@
+body,
+html{
+	width: 100%;
+	height: 100%;
+	font-family: 'PT Serif', serif;
+	background: url(https://images.unsplash.com/photo-1562380144-11338becc38e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+h1{
+	font-size: 3rem;
+	color: #f5f7f7;
+}
+
+.btn{
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+	width: 275px;
+}
+
+.btn-dark{
+	background-color: #9cb4cc;
+	border-color: #9cb4cc;
+}
+
+.btn-dark:hover{
+	background-color: #D68FAF;
+	border-color: #D68FAF;
+	border-width: 4px;
+}
+
+hr {
+	border-color: black;
+	border-width: 100px;
+}
